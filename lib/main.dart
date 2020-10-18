@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
               Text(
                 'Juan Dorado',
                 style: TextStyle(
+                  fontFamily: 'Pacifico',
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                   fontSize: 40.0,
