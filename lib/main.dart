@@ -11,9 +11,21 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: CircleAvatar(
-            radius: 50.0,
-            backgroundImage: AssetImage('images/profile.jpg'),
+          child: Column(
+            children: [
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage('images/profile.jpg'),
+              ),
+              Text(
+                'Juan Dorado',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 40.0,
+                ),
+              )
+            ],
           ),
         ),
       ),
